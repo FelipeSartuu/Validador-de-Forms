@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/happy-pumpkin-icon-design-graphic-png.webp" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Validador de Forms</title>
+</head>
+<body>
+    
+    <div class="screen">
+        
+        <section class="leftside">
+            <h1>Crie uma Conta!</h1>    <br>
+
+            <form action="" method="post" class="jsvalidator">
+                <label>
+                    Seu nick: <br>
+                    <input type="text" name="nick" id="input-text" placeholder="Exemplo: FelipSartuu" data-rules="required/min=2">
+                </label>
+
+                <label>
+                    Seu email: <br>
+                    <input type="email" name="email" id="input-email" placeholder="Exemplo: abc@abc.com" data-rules="required/email">
+                </label>
+
+                <label>
+                    Digite sua senha: <br>
+                    <input type="password" name="password" id="input-password" placeholder="Exemplo: xyz123" data-rules="required/min=4">
+                </label>
+
+                <label>
+                    <input type="submit" value="Cadastrar" id="input-submit">
+                </label>
+            </form>
+
+            <div>
+                Já tem uma conta? <a href="">Faça o login</a>
+            </div>
+        </section>
+        
+        
+        <section class="rightside">
+        </section>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
